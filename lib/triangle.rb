@@ -15,6 +15,7 @@ class Triangle
     @side_one == @side_two && @side_two == @side_three 
     return :equalateral 
     elsif 
+    @side_one == @side_two || @side_one == @side_three 
     
   end 
   
