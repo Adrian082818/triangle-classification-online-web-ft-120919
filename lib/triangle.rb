@@ -13,6 +13,8 @@ class Triangle
       raise TriangleError
     elsif 
     @side_one == @side_two && @side_two == @side_three 
+    return :equalateral 
+    elsif 
     
   end 
   
