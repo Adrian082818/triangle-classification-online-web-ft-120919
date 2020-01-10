@@ -13,7 +13,7 @@ class Triangle
     if @side_one <= 0 || @side_one + @side_two <= @side_three
       raise TriangleError
     else 
-      if @side_one + @side_two < @side_three || @side_one + @side_three < @side_two || @side_two + @side_three < @side_one 
+      if @side_one + @side_two <= @side_three || @side_one + @side_three <= @side_two || @side_two + @side_three <= @side_one 
         raise TriangleError
     elsif 
     @side_one == @side_two && @side_two == @side_three 
